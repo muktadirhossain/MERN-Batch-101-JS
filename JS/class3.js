@@ -93,13 +93,13 @@ const array = [5, 14, 25, 66, 65, 21];
 
 let sum = 0;
 for (let i = 0; i < array.length; i++) {
-    console.log("sum", sum);
-    console.log("Element", array[i]);
-    console.log("_______");
+  console.log("sum", sum);
+  console.log("Element", array[i]);
+  console.log("_______");
   sum = sum + array[i];
 }
 
-console.log(sum)
+console.log(sum);
 
 // console.log(array.length)
 
