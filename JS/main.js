@@ -74,6 +74,33 @@ function calculateTriangleArea() {
 
 //* একই কাজ কে বার বার করা কে লুপ বলেঃঃ
 
-for (let i = 0; i < 10; i++) {
-  console.log("Hello world!", i);
-}
+// for (let i = 0; i < 10; i++) {
+//   console.log("Hello world!", i);
+// }
+
+const person = {
+  name: "John",
+  age: 34,
+};
+
+//! JSON = JavaScript Object Notation
+
+const jsonPerson = JSON.stringify(person);
+
+// console.log(JSON.parse(jsonPerson))
+
+// fetch("https://jsonplaceholder.typicode.com/todos/1")
+//   .then((response) => response.json())
+//   .then((json) => console.log(json))
+//   .catch((error) => console.log("ERROR"))
+
+
+// setInterval(() =>{
+//   console.log("Hello world!");
+// }, 1000)
+
+setTimeout(()=>{
+  console.log("I am from set Timeout:103");
+}, 3000)
+
+console.log("Hello I am from line 106")

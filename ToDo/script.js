@@ -12,7 +12,8 @@ function addTask() {
   const btn = document.createElement("button");
   btn.textContent = "Delete";
   // Add Class to the delete btn
-  btn.classList.add("delete-btn");
+  btn.classList.add("delete-btn","test","test-02");
+  
   // Add an Event Listener to the delete btn::
   btn.addEventListener("click", () => {
     li.remove();
